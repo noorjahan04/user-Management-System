@@ -23,7 +23,6 @@ export default function Navbar() {
         borderBottom: "2px solid #0056b3",
       }}
     >
-      {/* Left Section (Logo/Home) */}
       <div style={{ fontSize: "20px", fontWeight: "bold" }}>
         <Link
           to="/"
@@ -36,7 +35,6 @@ export default function Navbar() {
         </Link>
       </div>
 
-      {/* Right Section (Links) */}
       <div style={{ display: "flex", gap: "15px", alignItems: "center" }}>
         {!token && (
           <>
